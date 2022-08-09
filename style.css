@@ -62,9 +62,39 @@ p {
     display: flex;
     align-items: center;
 }
+.creditsImage {
+    width: 300px;
+    height: 168px;
+    border-radius: 10px 0 0 10px;
+}
+.creditsInfo {
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    color: rgb(255, 255, 255);
+    background-color: rgba(70, 70, 70, 0.9);
+    width: 200px;
+}
+.creditsItem {
+    display: flex;
+    border-radius: 10px;
+}
+.creditsName {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 90%;
+}
+.creditsName a {
+    color: rgb(255, 255, 255);
+}
+.creditsTitle {
+    color: rgb(255, 255, 255);
+}
 .firstP {
     margin-top: 7px;
     text-align: left;
+}
+.inProgress {
+    color: rgb(189, 227, 65);
 }
 .mainContent {
     width: 600px;
@@ -142,8 +172,12 @@ p {
 #alltainer {
 
 }
+#closeBtn {
+    font-size: 200%;
+    color: rgb(255, 255, 255) !important;
+}
 #contact {
-    background-image: url('./images/contact_2.jpg');
+    background-image: url('./images/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -156,6 +190,35 @@ p {
 #contactPanel p {
     font-size: 90%;
     margin-bottom: 10px;
+}
+#creditsLink {
+    cursor: pointer;
+}
+#creditsPanel {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(120, 120, 120, 1.0);
+    color: rgb(255, 255, 255);
+    visibility: hidden;
+    z-index: 10;
+    text-align: center;
+    overflow: scroll;
+}
+#creditsPanel h1 {
+    color: rgb(255, 255, 255);
+    margin: 20px 20px;
+    font-size: 150%;
+}
+#creditsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 50px;
+    align-items: center;
+    justify-content: space-around;
 }
 #helloPanel {
     background-color: rgba(255, 255, 255, 0.95);
@@ -198,7 +261,7 @@ p {
     cursor: pointer;
 }
 #primer {
-    background-image: url('./images/hello_5.jpg');
+    background-image: url('./images/hello.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -212,7 +275,7 @@ p {
     justify-content: space-around;
 }
 #projects {
-    background-image: url('./images/projects_1.jpg');
+    background-image: url('./images/projects.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
