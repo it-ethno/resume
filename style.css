@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(70, 70, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 110%;
+    margin-bottom: 0px;
+}
+header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 1;
+    opacity: 0.8;
+}
+header:hover {
+    opacity: 1.0;
+}
+nav {
+    margin-left: auto;
+    margin-right: 30px;
+}
+nav li {
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav li:hover {
+    background-color: rgb(230, 230, 230);
+    
+}
+p {    
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.4em;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.biggerShot {
+    cursor: pointer;
+}
+.contentPage {
+    width: 100%;
+    min-height: 1200px;
+    display: flex;
+    align-items: center;
+}
+.firstP {
+    margin-top: 7px;
+    text-align: left;
+}
+.mainContent {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.mainContent_fullWidth {
+    width: 100%;
+}
+.mainContent_fullWidth h1 {
+    text-align: center;
+}
+.projectAbstract {
+    font-size: 90%;
+    padding: 7px 10px 8px;
+    background-color: rgba(70, 70, 70, 0.9);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.projectCard {
+    width: 300px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.projectCard a {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.projectCard h2 {
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    color: rgb(245, 245, 245);
+    padding: 10px 10px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0px;
+}
+.projectInfo {
+    font-size: 80%;
+    padding: 5px 20px 2px;
+    text-align: left;
+}
+.projectInfo:first {
+    margin-top: 10px;
+}
+.projectScreenshot {
+    width: 100%;
+    height: 168px;
+    max-height: 168px;
+
+}
+
+.srcAvailable {
+    font-size: 80%;
+    font-family: 'Open Sans';
+    margin: 10px 0px;
+}
+.techAwe {
+    font-size: 140%;
+}
+.techIcon {
+    height: 25px;
+    width: auto;
+}
+.techsInvolved {
+    padding: 15px 20px 15px;
+    margin-top: auto;
+    font-family: 'Open Sans';
+}
+
+
+#alltainer {
+
+}
+#contact {
+    background-image: url('./images/contact_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contactPanel {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 700px;
+}
+#contactPanel p {
+    font-size: 90%;
+    margin-bottom: 10px;
+}
+#helloPanel {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 700px;
+}
+#helloPanel p {
+    margin-bottom: 10px;
+}
+#myProjects {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 200%;
+    background-color: rgb(245, 245, 245);
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    
+}
+#navItems {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+}
+#portraitBig {
+    position: fixed;
+    top: 55px;
+    left: 20px;
+    height: 40vh;
+    width: auto;
+    border-radius: 5px;
+    visibility: hidden;
+}
+#portraitIcon {
+    width: auto;
+    height: 44px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+#primer {
+    background-image: url('./images/hello_5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#projectList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto 20px;
+    justify-content: space-around;
+}
+#projects {
+    background-image: url('./images/projects_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#thorsten_gries {
+    font-size: 130%;
+    font-family: 'Open Sans';
+    font-weight: 500;
+}
+#twoForOne {
+    position: absolute;
+    right: -30px;
+    background-color: rgb(186, 220, 73);
+    padding: 10px 10px 10px 30px;
+    font-size: 60%;
+    border-radius:30px 5px 5px 30px;
+    font-family: 'DM Mono', monospace;
+}

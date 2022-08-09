@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thorsten Gries Resumee</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/8b7dd93a81.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="alltainer">
+        <header>
+            <div>
+                <img id="portraitIcon" src="./images/IMG_015.jpg" alt="Portraitfoto Thorsten Gries">
+            </div>
+            <div id="thorsten_gries">Thorsten Gries</div>
+            <nav>
+                <ul id="navItems">
+                    <li><a href="#primer">Über</a></li>
+                    <li><a href="#projects">Projekte</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+        <img id="portraitBig" src="./images/IMG_015.jpg" alt="Großes Portraitfoto Thorsten Gries">
+        <section id="primer">
+            <div class="contentPage">
+                <div class="mainContent">
+                    <div id="helloPanel">
+                        <h1>Hi, ich bin der Thorsten!</h1>
+                        <p>Ich bin ein autodidaktischer Entwickler mit über 25 Jahren Erfahrung in der 
+                        Programmierung und dem Webdesign.</p>
+                        <p>Meine Lieblingssprachen sind HTML, CSS, Javascript, und Ruby, ich habe aber 
+                            auch einige zurückliegende Erfahrungen mit Java, PHP, und C#.
+                        </p>
+                        <p>Außerdem bin ich auch ein Kulturwissenschaftler, der sein Magisterstudium der 
+                            Ethnologie, Islamwissenschaft, und Psychologie aus persönlichen Gründen leider 
+                            nicht vollständig beenden konnte, es aber auch heute noch im Herzen trägt.</p>
+                        <p>In den letzten 20 Jahren habe ich haupsächlich 2 Dinge getan:</p>
+                        <p>programmieren und schreiben.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="contentPage" style="align-items: flex-start;">
+                <div class="mainContent_fullWidth">
+                    <h1 id="myProjects">Meine Projekte</h1>
+                    <div id="projectList">
+                        <div class="projectCard">
+                            <h2>Bibliographie App</h2>
+                            <img src="./images/bibliography_1.png" class="projectScreenshot biggerShot">
+                            <p class="projectAbstract">Eine App für bibliographische Arbeit</p>
+                            <p class="projectInfo firstP">Wird auch wissenschaftlichen Ansprüchen genügen, schick und schlank sein, und nichts kosten.</p>
+                            <p class="projectInfo">Mit Ruby on Rails im Backend und einem responsivem Frontend in HTML/CSS/JS.</p>
+                            <div class="techsInvolved">
+                                <div class="srcAvailable">
+                                    <i class="fa-solid fa-code" style="margin-right: 5px;"></i>
+                                    <a href="https://github.com/it-ethno/bibliography" target="_blank">Quellcode verfügbar auf Github</a></div>
+                                <div>
+                                    <img src="./images/HTML5_Badge_64.png" alt="Logo HTML5" class="techIcon" title="HTML 5">
+                                    <img src="./images/CSS3_logo.svg.png" alt="Logo CSS" class="techIcon" title="Cascading Style Sheets Level 3">
+                                    <img src="./images/Unofficial_JavaScript_logo_2.svg.png" alt="Logo Javascript" class="techIcon" title="Javascript (ECMA Script 2021)">
+                                    <img src="./images/Ruby_On_Rails_Logo.svg.png" alt="Logo Ruby on Rails" class="techIcon" title="Ruby on Rails">
+                                </div>                               
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h2>Sonnenschein HTML</h2>
+                            <img src="./images/Sonnenschein.png" class="projectScreenshot biggerShot">
+                            <p class="projectAbstract">Ein HTML Kurs für alle</p>
+                            <p class="projectInfo firstP">Geschrieben in HTML, geliefert in HTML. Auf Deutsch.</p>
+                            
+                            <div class="techsInvolved">
+                                <div class="srcAvailable">
+                                    <i class="fa-solid fa-code" style="margin-right: 5px;"></i>
+                                    <a href="https://github.com/it-ethno/sonnenschein" target="_blank">Quellcode verfügbar auf Github</a></div>
+                                <div>
+                                    <img src="./images/HTML5_Badge_64.png" alt="Logo HTML5" class="techIcon" title="HTML 5">
+                                    <img src="./images/CSS3_logo.svg.png" alt="Logo CSS" class="techIcon" title="Cascading Style Sheets Level 3">
+                                    <img src="./images/Unofficial_JavaScript_logo_2.svg.png" alt="Logo Javascript" class="techIcon" title="Javascript (ECMA Script 2021)">
+                                </div>                               
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h2>Das Wetter</h2>
+                            <img src="./images/Das_Wetter_2.png" class="projectScreenshot biggerShot">
+                            <p class="projectAbstract">Eine App zur Wettervorhersage</p>
+                            <p class="projectInfo firstP">Eine Single-Page App in HTML/CSS/Vanilla JS, mit schicken wechselnden Bild-Hintergründen von Unsplash, Orte- und Hintergrund-Verlauf, 
+                                sowie einigen Einstellungsmöglichkeiten - auf Deutsch und Englisch.</p>
+                            
+                            <div class="techsInvolved">
+                                <div class="srcAvailable"><i class="fa-solid fa-code" style="margin-right: 5px;"></i><a href="https://github.com/it-ethno/the_weather" target="_blank">Quellcode verfügbar auf Github</a></div>
+                                <img src="./images/HTML5_Badge_64.png" alt="Logo HTML5" class="techIcon" title="HTML 5">
+                                <img src="./images/CSS3_logo.svg.png" alt="Logo CSS" class="techIcon" title="Cascading Style Sheets Level 3">
+                                <img src="./images/Unofficial_JavaScript_logo_2.svg.png" alt="Logo Javascript" class="techIcon" title="Javascript (ECMA Script 2021)">
+                            </div>
+                        </div>   
+                        <div class="projectCard">
+                            <h2>Der Ampeltracker</h2>
+                            <img src="./images/ampel_1.jpg" class="projectScreenshot">
+                            <p class="projectAbstract">"Versprochen!"</p>
+                            <p class="projectInfo firstP">Der Ampeltracker sollte die Versprechen des Koalitionsvertrages der 
+                                amtierenden Bundesregierung nachverfolgen.</p>
+                            <p class="projectInfo">Die Arbeit daran stellte ich ein, als ich den Koalitionstracker auf Frag den Staat fand, 
+                                und mir klar wurde, dass es eines größeren Teams bedarf, um ein solches Projekt sinnvoll zu betreiben.</p>
+                            <div class="techsInvolved">
+                                <div class="srcAvailable"><i class="fa-solid fa-code" style="margin-right: 5px;"></i>Leider kein Quellcode verfügbar</div>
+                                <img src="./images/HTML5_Badge_64.png" alt="Logo HTML5" class="techIcon" title="HTML 5">
+                                <img src="./images/CSS3_logo.svg.png" alt="Logo CSS" class="techIcon" title="Cascading Style Sheets Level 3">
+                                <img src="./images/Unofficial_JavaScript_logo_2.svg.png" alt="Logo Javascript" class="techIcon" title="Javascript (ECMA Script 2021)">
+                                <img src="./images/Ruby_On_Rails_Logo.svg.png" alt="Logo Ruby on Rails" class="techIcon" title="Ruby on Rails">
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h2>Alter Ego Arschgesicht</h2>
+                            <img src="./images/alter_ego_1.jpg" class="projectScreenshot">
+                            <p class="projectAbstract">"Ne, is klar, nur gar nicht, also total!"</p>
+                            <p class="projectInfo firstP">Hier reflektiere ich autobiographisch über Selbstverachtung, Dissonanz, Buddha, Mama, und Hoffnung.</p>
+                            <div class="techsInvolved">
+                                <i class="fa-solid fa-pencil techAwe" title="Schreiben"></i>
+                            </div>
+                        </div>                        
+                        <div class="projectCard">
+                            <h2>Licht - Dein Sein</h2>
+                            <img src="./images/licht_2.jpg" class="projectScreenshot">
+                            <p class="projectAbstract">"Alles, was nicht Licht ist, ist Wurst."</p>
+                            <p class="projectInfo firstP">Licht ist der Abschluss meines philosophischen Konstruktes.</p>
+                            <p class="projectInfo">Hier beschäftige ich mich mit der Bedeutung und den Formen von Erleuchtung, basierend auf den Begriffen aus "Wurst" und "Das zu-sich-selbst-kommende Individuum".</p>
+                            <div class="techsInvolved">
+                                <i class="fa-solid fa-pencil techAwe" title="Schreiben"></i>
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h2>Die Digitale Verfassung</h2>
+                            <img src="./images/130306205822-the-bill-of-rights-horizontal-large-gallery.jpg" class="projectScreenshot">
+                            <p class="projectAbstract">"Vom Volk für das Volk."</p>
+                            <p class="projectInfo firstP">Das Projekt bestand aus einem ca. 50-seitigem Buch
+                                und einer prototypischen App zur Veranschaulichung der Idee, dass das gesamte Volk sich digital selbst eine Verfassung gibt.</p>
+                            <p class="projectInfo">Nein, ich bin kein Revolutzer, ich interessiere mich lediglich für die Möglichkeiten und Chancen, die unsere digital vernetzte Welt
+                                für die Demokratie zu bieten hat.</p>
+                            <div class="techsInvolved">
+                                <img src="./images/HTML5_Badge_64.png" alt="Logo HTML5" class="techIcon" title="HTML 5">
+                                <img src="./images/CSS3_logo.svg.png" alt="Logo CSS" class="techIcon" title="Cascading Style Sheets Level 3">
+                                <img src="./images/Unofficial_JavaScript_logo_2.svg.png" alt="Logo Javascript" class="techIcon" title="Javascript (ECMA Script 2021)">
+                                <img src="./images/Ruby_On_Rails_Logo.svg.png" alt="Logo Ruby on Rails" class="techIcon" title="Ruby on Rails">
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h2>Wurst - Dein Hauptwerk</h2>
+                            <img src="./images/wurst_1a.jpg" class="projectScreenshot">
+                            <p class="projectAbstract">"Die Wurst kennt das Ende der Zeit."</p>
+                            <p class="projectInfo firstP" style="text-align: left;padding-left: 20px;margin-left: 0px;">Wurst ist die Welt, die Welt ist Wurst.</p>
+                            <p class="projectInfo">In "Wurst" beschäftige ich mich mit den Begriffen "Hunger" und "Gewalt", basierend auf "Das zu-sich-selbst-kommende Individuum".</p>
+                            <div class="techsInvolved">
+                                <i class="fa-solid fa-pencil techAwe" title="Schreiben"></i>
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h2>Apokalypsen</h2>
+                            <img src="./images/apokalypsen_2.jpg" class="projectScreenshot">
+                            <p class="projectAbstract">Ein Drehbuch für eine kleine Serie</p>
+                            <p class="projectInfo firstP">Die Akteure verursachen versehentlich eine Apokalypse der besonderen Art verursachen, 
+                                und erfahren dabei jeweils ihre ganz persönliche Erlösung.</p>
+                            <div class="techsInvolved">
+                                <i class="fa-solid fa-pencil techAwe" title="Schreiben"></i>
+                            </div>
+                        </div>
+                        <div class="projectCard">
+                            <h2>Das zu-sich-selbst-kommende Individuum</h2>
+                            <img src="./images/individuum_1.jpg" class="projectScreenshot">
+                            <p class="projectAbstract">"Es gibt nur ein unterdrücktes Individuum."</p>
+                            <p class="projectInfo firstP">Das zu-sich-selbst-kommende Individuum in einer 
+                                zu-sich-selbst-kommenden Welt ist die begriffliche Grundlage all meiner philosophischen
+                                Reflektionen.</p>
+                            <p class="projectInfo">Diese werden in "Wurst" und "Licht" fortgesetzt.</p>
+                            <div class="techsInvolved">
+                                <i class="fa-solid fa-pencil techAwe" title="Schreiben"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contentPage">
+                <div class="mainContent">
+                    <div id="contactPanel">
+                        <h1>Kontakt</h1>
+                        <p>Ja, ich weiß, ich bin ja so viral!</p>
+                        <p>Aber ist es nicht ein denkwürdiges Zeichen unserer Zeit, dass man als erstes Fotos von Masken und Viren bekommt, 
+                            wenn man auf Bilderplattformen nach dem Stichwort "Kontakt" sucht?</p>
+                        <p>Jedenfalls freue ich mich über jede Kontaktaufnahme, sei sie jetzt kontaktfrei oder nicht.</p>
+                        <p>Da ich eine persönliche Präsenz auf sozialen Medien aus gesellschaftsphilosophischen Gründen ablehne, habe ich in dieser Hinsicht momentan 
+                            leider nichts zu bieten, aber alle klassischen Kontaktkanäle stehen Ihnen rund um die Uhr zur Verfügung:</p>
+                        <p style="margin-bottom:0px;"><i class="fa-solid fa-envelope" style="margin-right: 5px;"></i>Email: <a href="mailto: thorsten-gries@gmx.de">thorsten_gries@gmx.de</a></p>
+                        <p style="margin-bottom:0px;"><i class="fa-solid fa-phone" style="margin-right: 5px;"></i>Telefon: 0208-400611</p>
+                        <p style="margin-bottom:15px;"><i class="fa-solid fa-mobile" style="margin-right: 5px;"></i>Mobil: 0173-7456299</p>
+                        <p><i class="fa-brands fa-github" style="margin-right: 5px;"></i>Meine <a href="https://github.com/it-ethno" target="_blank" style="text-decoration: underline;">Präsenz auf Github</a> habe ich zwar gerade erst eröffnet, aber vielleicht lohnt es sich ja inzwischen schon, dort einmal vorbei zu schauen.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
